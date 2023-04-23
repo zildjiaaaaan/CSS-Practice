@@ -10,3 +10,51 @@ h1 {
     font-size: 70px;
     color: navy;
 }
+
+.box {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.box1 {
+    background: pink;
+}
+
+.box2 {
+    background: red;
+}
+
+.box3 {
+    background: firebrick;
+}
+
+.box4 {
+    background: orange;
+}
+
+.box5 {
+    background: yellow;
+    clear: both;
+}
+
+.box6 {
+    background: green;
+}
+
+.box7 {
+    background: blue;
+}
+
+.box8 {
+    background: indigo;
+    clear: both;
+}
+
+.box9 {
+    background: blueviolet;
+}
+
+.box9 {
+    background: purple;
+}

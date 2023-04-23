@@ -1,0 +1,25 @@
+For box model, use MBP = Margin, Border, Padding
+
+Always use 'clear' set to 'both'
+
+Don't abuse '!important'. Use 'class=important' instead
+
+Only set height if necessary
+
+Always use font stack
+
+Use it in order
+    a:link
+    a:visited
+    a:hover
+    a:active
+
+In list, 'list-style-position' default value is 'outside'
+
+Use CSS specificity calculator if 
+
+For BG images, adjust the ff. in order:
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
