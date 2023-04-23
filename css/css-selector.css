@@ -24,3 +24,12 @@ a:hover {
     color: brown;
     text-decoration: none;
 }
+
+.body-text {
+    background-color: rebeccapurple;
+    padding: 20px;
+}
+
+.body-text p {
+    color: white;
+}
