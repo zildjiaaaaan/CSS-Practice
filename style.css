@@ -12,3 +12,19 @@ h1 {
 p {
     color: #5a6077;
 }
+
+.box {
+    background-color: pink;
+    width: 300px;
+
+    margin: 50px;
+
+    /* border-width: 5px;
+    border-color: red;
+    border-style: solid; */
+    border: 5px blue solid;
+
+    padding: 100px; /* clockwise */
+
+    
+}
