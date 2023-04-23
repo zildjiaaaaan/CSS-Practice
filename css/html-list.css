@@ -33,3 +33,15 @@ a:hover {
 .body-text p {
     color: white;
 }
+
+/* - - - - - - - - - - - - - */
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ul {
+    list-style-type: armenian;
+    /* list-style-image: url(); - image bullet */
+    /* list-style-position: outside; - default */
+}
