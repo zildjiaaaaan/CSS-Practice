@@ -23,3 +23,6 @@ For BG images, adjust the ff. in order:
     background-size: contain;
     background-position: center;
 
+Instead of using 'opacity' for color, use 'rgba' instead
+
+
