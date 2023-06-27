@@ -31,4 +31,7 @@ When using percentage as size, you can use min/max properties
 
 CRL
 
-1. Always use percentage to maintain responsiveness
+Always use percentage to maintain responsiveness
+
+Familiarize sizes by thinking of parent-child relationship
+
