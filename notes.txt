@@ -35,3 +35,5 @@ Always use percentage to maintain responsiveness
 
 Familiarize sizes by thinking of parent-child relationship
 
+Use padding instead of setting height
+
