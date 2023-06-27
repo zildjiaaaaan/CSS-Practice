@@ -27,3 +27,8 @@ Instead of using 'opacity' for color, use 'rgba' instead
 
 When using percentage as size, you can use min/max properties
 
+--
+
+CRL
+
+1. Always use percentage to maintain responsiveness
