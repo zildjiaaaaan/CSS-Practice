@@ -37,3 +37,4 @@ Familiarize sizes by thinking of parent-child relationship
 
 Use padding instead of setting height
 
+Do not set font-sizes using em
