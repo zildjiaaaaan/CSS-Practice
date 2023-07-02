@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 3rem;
+}
+
+p {
+    background: #b44200;
+    color: white;
+    margin: 3rem auto;
+    padding: 3rem;
+    line-height: 1.5;
+}
+
+.one {
+    width: 600px;
+    max-width: 100%;
+}
+
+.two {
+    width: 100%;
+    max-width: 600px;
+}
