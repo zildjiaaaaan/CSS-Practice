@@ -23,29 +23,6 @@ body {
   font-family: sans-serif;
 }
 
-/* .container {
-  width: 100%;
-  max-width: 750px;
-  margin: 0 auto;
-  background: #23424a;
-  color: white;
-  padding: 5rem 0;
-}
-
-.intro-content {
-  width: 50%;
-  max-width: 1000px;
-  padding-right: 30%;
-  margin: 0 auto; 
-}
-
-.body-content {
-  width: 50%;
-  margin: 0 auto;
-  max-width: 1000px;
-  padding: 2rem 0;
-} */
-
 .intro {
   background: #23424a;
   color: white;
