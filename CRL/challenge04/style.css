@@ -39,31 +39,49 @@ h1 {
     margin: 0 auto;
 }
 
-.row {
+.hero1 {
+    padding: 5rem 0;
+}
+
+.row, .row2 {
     /* display: flex => flex container */
     display: flex;
 
     /* can't use yet */
     /* gap: 100px; */
     margin: 5rem 0;
+    /* padding: 5rem 0; */
 }
 
-.col {
+.col, .col2 {
     /* these are now flex items */
     width: 100%;
     text-align: center;
-    text-align-last: center;
-    text-justify: distribute;
     line-height: 1.5;
 }
 
-.col + .col {
-    margin-left: 10px;
+.col + .col, .col2 + .col2 {
+    margin-left: 50px;
 }
 
 .row .col h2 {
     color: #87629a;
 }
+
+.hero2 {
+    padding: 50px 0;
+    background-color: #136C72;
+    color: #FFF;
+}
+
+.container-body {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
 
 .hero {
     padding: 100px 0;
