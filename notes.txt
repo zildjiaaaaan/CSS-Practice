@@ -53,9 +53,9 @@ BEM
     Element (eg. .btn__icon)
     Modifier (eg. .btn--primary)
 
+Don't set minimum widths
 
-
-
+Don't use grid-template-rows unless necessary
 
 
     
