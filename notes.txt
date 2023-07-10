@@ -38,3 +38,24 @@ Familiarize sizes by thinking of parent-child relationship
 Use padding instead of setting height
 
 Do not set font-sizes using em
+
+Selector positions:
+    General Elements (eg. body)
+    Typography
+    Reusable componentes (eg. .row, .container, .btn)
+
+    Specific components (eg. .btn-primary)
+    Utility classes (eg. .text-center)
+    States (eg. .is-active)
+
+BEM
+    Block (eg. .btn)
+    Element (eg. .btn__icon)
+    Modifier (eg. .btn--primary)
+
+
+
+
+
+
+    
