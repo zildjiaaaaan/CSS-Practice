@@ -10,8 +10,9 @@ body {
 
 .container {
     border: 1px brown solid;
-    max-width: 1500px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 2rem;
 }
 
 .row {
@@ -24,7 +25,7 @@ body {
 }
 
 .box {
-    border: 1px red solid;
+    border: 1px brown solid;
     margin: 0 auto;
     width: min(50rem, 100%);    
     padding: 2rem;
@@ -51,7 +52,34 @@ body {
     margin-top: 0;
 }
 
-.section-1 {
-    background-color: pink;
-    padding: 20rem 0;
+.main {
+    /* background-color: pink; */    
+    font-size: 21px;
+    line-height: 1.5;
+    text-align: justify;
+    color: #222C2A;
+}
+
+.article {
+    padding: 5rem 2rem;
+    border: 1px green solid;
+}
+
+.article__title {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-align: center;
+    color: #824936;
+}
+
+.card__text {
+    width: 100%;
+}
+
+.card__text + .card__text {
+    margin-left: 8rem;
+}
+
+.two {
+    background-color: #222C2A;
 }
