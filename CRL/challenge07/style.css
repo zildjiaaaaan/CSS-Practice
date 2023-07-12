@@ -6,6 +6,7 @@ body {
     margin: 0;
     /* font-family: 'Playfair Display', serif; */
     font-family: 'Roboto', sans-serif;
+    font-size: 21px;
 }
 
 .container {
@@ -52,34 +53,36 @@ body {
     margin-top: 0;
 }
 
-.main {
-    /* background-color: pink; */    
-    font-size: 21px;
+.section {
+    padding: 5rem 0;
     line-height: 1.5;
-    text-align: justify;
+}
+
+.one {
+    background-color: white;
     color: #222C2A;
 }
 
-.article {
-    padding: 5rem 2rem;
-    border: 1px green solid;
-}
-
-.article__title {
+.one__title {
     font-family: 'Playfair Display', serif;
     font-size: 36px;
-    text-align: center;
     color: #824936;
+    text-align: center;
+
+    border: 1px red solid;
 }
 
-.card__text {
+.one__text {
     width: 100%;
+    text-align: justify;
 }
 
-.card__text + .card__text {
-    margin-left: 8rem;
+.one__text + .one__text {
+    margin-left: 5rem;
 }
 
 .two {
-    background-color: #222C2A;
+    background-color: white;
+    /* font-size: 21px; */
+    color: #222C2A;
 }
