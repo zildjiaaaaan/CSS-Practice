@@ -9,6 +9,10 @@ body {
     font-size: 21px;
 }
 
+img {
+    max-width: 100%;
+}
+
 .container {
     border: 1px brown solid;
     max-width: 1200px;
@@ -18,6 +22,15 @@ body {
 
 .row {
     display: flex;
+}
+
+.row > * {
+    width: 100%;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
 }
 
 .header {
@@ -63,17 +76,12 @@ body {
     color: #222C2A;
 }
 
-.one__title {
-    font-family: 'Playfair Display', serif;
-    font-size: 36px;
+.one .title {
     color: #824936;
     text-align: center;
-
-    border: 1px red solid;
 }
 
 .one__text {
-    width: 100%;
     text-align: justify;
 }
 
@@ -81,8 +89,16 @@ body {
     margin-left: 5rem;
 }
 
-.two {
-    background-color: white;
-    /* font-size: 21px; */
-    color: #222C2A;
+/* .two {
+    background-color: #222C2A;
+    color: #F3EED9;
+    text-align: justify;
 }
+
+.two-item + .two-item {
+    margin-left: 5rem;    
+}
+
+.img {
+    align-self: flex-start;
+} */
